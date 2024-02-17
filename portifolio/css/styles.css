@@ -1,0 +1,169 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 100px;
+  padding: 0;
+  min-height: 100%;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  color: #060331;
+  background-color: #ba2227;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.video h3 {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+img.imagem1,
+img.imagem2 {
+  width: 400px;
+  height: auto;
+  margin: 10px;
+}
+
+section p {
+  flex: 1 1 50%;
+  padding: 10px;
+}
+
+section img.imagem1 {
+  order: -1;
+  align-self: flex-start;
+}
+
+section img.imagem2 {
+  align-self: flex-end;
+}
+
+.container1 {
+  display: flex;
+  gap: 20px;
+}
+.contato,
+.cep {
+  flex: 1;
+}
+.contato h2,
+.cep h2 {
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+  color: #060331;
+  background-color: #ba2227;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  width: calc(100% - 10px);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.custom-button {
+  background-color: #060331;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.custom-button:hover {
+  background-color: #040317;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.redes-sociais {
+  list-style: none;
+  padding: 0;
+}
+
+.redes-sociais li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.redes-sociais li img {
+  width: 30px;
+  height: 30px;
+}
