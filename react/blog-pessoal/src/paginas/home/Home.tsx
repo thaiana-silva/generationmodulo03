@@ -1,17 +1,16 @@
-import React from "react";
-import "./Home.css";
+import React, { useState } from "react";
 
 function Home() {
+  const [loggedIn, setLoggedIn] = useState(false);
+
   return (
-    <>
-      <h1 className="titulo">Home</h1>
-      <img
-        src="https://res.cloudinary.com/generation/image/upload/w_350,q_auto,f_auto/brazil/2022/04/Cover-1.png"
-        alt="Imagem Tela Inicial"
-        className="img"
-      />
-    </>
+    <div>
+      {loggedIn ? (
+        <h1>Bem-vindo de volta!</h1>
+      ) : (
+        <button onClick={() => setLoggedIn(true)}>Entrar</button>
+      )}
+    </div>
   );
 }
-
 export default Home;
